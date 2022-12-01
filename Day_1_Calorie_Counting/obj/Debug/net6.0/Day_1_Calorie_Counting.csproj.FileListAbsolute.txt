@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\Day_1_Calorie_Counting.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\Day_1_Calorie_Counting.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\Day_1_Calorie_Counting.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\Day_1_Calorie_Counting.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\ref\Day_1_Calorie_Counting.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\bin\Debug\net6.0\Day_1_Calorie_Counting.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\ref\Day_1_Calorie_Counting.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_1_Calorie_Counting\obj\Debug\net6.0\Day_1_Calorie_Counting.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day_1_Calorie_Counting/1.0.0": {
+        "runtime": {
+          "Day_1_Calorie_Counting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_1_Calorie_Counting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
