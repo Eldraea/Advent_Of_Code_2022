@@ -14,8 +14,8 @@ int PartTwo(List<int> caloriesCarried)
 List<int> GetTheCaloriesCarriedByElves(string text)
 {
     string[] textSplitted = text.Split(new string[] { "\r\n\r\n" }, StringSplitOptions.None);
-
     List<int> calories = new List<int>();
+
     foreach (string line in textSplitted)
     {
         int[] lineSplitted = line.Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
