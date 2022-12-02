@@ -6,27 +6,19 @@ using System.Threading.Tasks;
 
 namespace Day_2_Rock_Paper_Scissors
 {
-    public class PlayerForPartTwo: IPlayer
+    public class PlayerForPartTwo: Player
     {
-        public static Dictionary<(char, char), int> PossibleResults = new()
-        {
-            { ('A', 'X'), 3 }, { ('A', 'Y'), 4 }, { ('A', 'Z'), 8},
-            { ('B', 'X'), 1 }, { ('B', 'Y'), 5 }, { ('B', 'Z'), 9 },
-            { ('C', 'X'), 2 }, { ('C', 'Y'), 6 }, { ('C', 'Z'), 7},
-
-        };
-        public List<int> Scores { get; set; }
-
         public PlayerForPartTwo()
-            => Scores = new();
-        
-        public void Play((char, char) round)
-            => Scores.Add(PossibleResults[round]);  
+        {
+            Score = 0;
+            PossibleResults = new()
+            {
+                { ('A', 'X'), 3 }, { ('A', 'Y'), 4 }, { ('A', 'Z'), 8 },
+                { ('B', 'X'), 1 }, { ('B', 'Y'), 5 }, { ('B', 'Z'), 9 },
+                { ('C', 'X'), 2 }, { ('C', 'Y'), 6 }, { ('C', 'Z'), 7 },
+            };
 
-        public int GetTotalScore()
-            => Scores.Sum();
-
-           
+        }
         
     }
 }

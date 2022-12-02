@@ -10,7 +10,7 @@ Console.WriteLine($"The total Score for part one is {GetMyTotalScore(path, playe
 Console.WriteLine($"The total score for part two is {GetMyTotalScore(path, playerForPartTwo)}");
 
 
-int GetMyTotalScore(string path, IPlayer player) {
+int GetMyTotalScore(string path, Player player) {
 
     using (StreamReader stream = new StreamReader(path))
     {
@@ -18,5 +18,5 @@ int GetMyTotalScore(string path, IPlayer player) {
         while ((line = stream.ReadLine()) != null)
             player.Play(new ValueTuple<char, char>(line[0], line[2]));  
     }
-    return player.GetTotalScore();
+    return player.Score;
 }
