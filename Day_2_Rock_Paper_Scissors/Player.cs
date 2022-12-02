@@ -7,8 +7,5 @@
 
         public void Play((char, char) round)
            => Score += PossibleResults[round];
-
-        public int GetScore()
-            => Score;
     }
 }
