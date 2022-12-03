@@ -10,7 +10,7 @@ int GetTheSumOfRucksacksCommonItems(string path, int part)
     using(StreamReader streamReader = new StreamReader(path))
     {
         string rucksack;
-        while ((rucksack = streamReader.ReadLine()) != null)
+        while ((rucksack = streamReader.ReadLine()) is not null)
         {
             if (part == 1)
                 rucksacksItems.Add(GetCommonItem(rucksack.Substring(0, rucksack.Length / 2), rucksack.Substring(rucksack.Length / 2)));
