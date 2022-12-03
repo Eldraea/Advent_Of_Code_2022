@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\Day_3_Rucksack_Reorganization.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\Day_3_Rucksack_Reorganization.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\Day_3_Rucksack_Reorganization.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\Day_3_Rucksack_Reorganization.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\ref\Day_3_Rucksack_Reorganization.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\bin\Debug\net6.0\Day_3_Rucksack_Reorganization.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\ref\Day_3_Rucksack_Reorganization.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_3_Rucksack_Reorganization\obj\Debug\net6.0\Day_3_Rucksack_Reorganization.genruntimeconfig.cache
