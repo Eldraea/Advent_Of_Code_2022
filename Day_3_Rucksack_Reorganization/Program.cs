@@ -1,43 +1,34 @@
 ﻿using Day_3_Rucksack_Reorganization;
 
 string path = "input.txt";
+int[] letters = Enumerable.Range(97, 26).Concat(Enumerable.Range(65, 26)).ToArray(); ;
 
-Console.WriteLine($"The sum of the priotities of these item stacks is equal to {GetTheSumOfRuckstacksCommonItemsForPartOne(path)}");
-Console.WriteLine($"The sum of the priotities of these item groupstacks is equal to {GetTheSumOfRuckstacksCommonItemsForPartTwo(path)}");
+Console.WriteLine($"The sum of the priotities of the item types is equal to {GetTheSumOfRuckstacksCommonItemsForPartOne(path)}");
+Console.WriteLine($"The sum of the priotities of the item type that corresponds to the badges of each three-Elf group is equal to {GetTheSumOfRuckstacksCommonItemsForPartTwo(path)}");
 
 int GetTheSumOfRuckstacksCommonItemsForPartOne(string path)
 {
-    int[] letters = Enumerable.Range(97, 26).Concat(Enumerable.Range(65, 26)).ToArray();
-    List<Rucksack> ruckstacks = new();
+    List<Rucksack> rucksacks = new();
 
     using(StreamReader streamReader = new StreamReader(path))
     {
         string line;
         while((line = streamReader.ReadLine())!=null)
-        {
-            ruckstacks.Add(new Rucksack(line.Substring(0, line.Length/2), line.Substring(line.Length/2)));
-            
-        }
+            rucksacks.Add(new Rucksack(line.Substring(0, line.Length/2), line.Substring(line.Length/2)));
     }
-    return ruckstacks.Select(ruckstack => Array.IndexOf(letters, ruckstack.CommonItem) + 1).Sum();
+    return rucksacks.Select(rucksack => Array.IndexOf(letters, rucksack.CommonItem) + 1).Sum();
 }
 
 int GetTheSumOfRuckstacksCommonItemsForPartTwo(string path)
 {
-    int[] letters = Enumerable.Range(97, 26).Concat(Enumerable.Range(65, 26)).ToArray();
-    List<Group> ruckstackGroups = new();
+    List<Group> rucksackGroups = new();
     using (StreamReader streamReader = new StreamReader(path))
     {
         string line;
         while ((line = streamReader.ReadLine()) != null)
-        {
-           string line2 = streamReader.ReadLine();
-           string line3 = streamReader.ReadLine();
-            ruckstackGroups.Add(new Group(line, line2, line3));
-        }
-        
+            rucksackGroups.Add(new Group(line, streamReader.ReadLine(),streamReader.ReadLine()));
     }
-    return ruckstackGroups.Select(ruckstackGroup => Array.IndexOf(letters, ruckstackGroup.CommonItem) +1).Sum();
+    return rucksackGroups.Select(rucksackGroup => Array.IndexOf(letters, rucksackGroup.CommonItem) +1).Sum();
 }
 
 
