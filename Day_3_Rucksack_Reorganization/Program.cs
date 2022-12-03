@@ -24,8 +24,8 @@ int GetTheSumOfRucksacksCommonItems(string path, int part)
 int GetCommonItem(string firstRucksack, string secondRucksack, string? thirdRucksack = null)
 {
     return thirdRucksack is not null
-       ? firstRucksack.Where(x => secondRucksack.IndexOf(x) != -1 && thirdRucksack?.IndexOf(x) != -1).ToArray()[0]
-       : firstRucksack.Where(x => secondRucksack.IndexOf(x) != -1).ToArray()[0];
+       ? firstRucksack.Where(x => secondRucksack.IndexOf(x) != -1 && thirdRucksack.IndexOf(x) != -1).First()
+       : firstRucksack.Where(x => secondRucksack.IndexOf(x) != -1).First();
 }
 
 
