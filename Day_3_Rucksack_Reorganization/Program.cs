@@ -9,13 +9,14 @@ int GetTheSumOfRucksacksCommonItems(string path, int part)
     List<int> rucksacksItems = new();
     using(StreamReader streamReader = new StreamReader(path))
     {
-        string line;
-        if(part == 1)
-            while((line = streamReader.ReadLine())!=null)
-                rucksacksItems.Add(GetCommonItem(line.Substring(0, line.Length/2), line.Substring(line.Length/2)));
-        else
-            while ((line = streamReader.ReadLine()) != null)
-                rucksacksItems.Add(GetCommonItem(line, streamReader.ReadLine(), streamReader.ReadLine()));
+        string rucksack;
+        while ((rucksack = streamReader.ReadLine()) != null)
+        {
+            if (part == 1)
+                rucksacksItems.Add(GetCommonItem(rucksack.Substring(0, rucksack.Length / 2), rucksack.Substring(rucksack.Length / 2)));
+            else
+                rucksacksItems.Add(GetCommonItem(rucksack, streamReader.ReadLine(), streamReader.ReadLine()));
+        }
     }
     return rucksacksItems.Select(rucksackItems => Array.IndexOf(letters, rucksackItems) + 1).Sum();
 }
