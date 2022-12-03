@@ -3,10 +3,10 @@
 string path = "input.txt";
 int[] letters = Enumerable.Range(97, 26).Concat(Enumerable.Range(65, 26)).ToArray(); ;
 
-Console.WriteLine($"The sum of the priotities of the item types is equal to {GetTheSumOfRuckstacksCommonItemsForPartOne(path)}");
-Console.WriteLine($"The sum of the priotities of the item type that corresponds to the badges of each three-Elf group is equal to {GetTheSumOfRuckstacksCommonItemsForPartTwo(path)}");
+Console.WriteLine($"The sum of the priotities of the item types is equal to {GetTheSumOfRucksacksCommonItemsForPartOne(path)}");
+Console.WriteLine($"The sum of the priotities of the item type that corresponds to the badges of each three-Elf group is equal to {GetTheSumOfRucksacksCommonItemsForPartTwo(path)}");
 
-int GetTheSumOfRuckstacksCommonItemsForPartOne(string path)
+int GetTheSumOfRucksacksCommonItemsForPartOne(string path)
 {
     List<Rucksack> rucksacks = new();
 
@@ -19,7 +19,7 @@ int GetTheSumOfRuckstacksCommonItemsForPartOne(string path)
     return rucksacks.Select(rucksack => Array.IndexOf(letters, rucksack.CommonItem) + 1).Sum();
 }
 
-int GetTheSumOfRuckstacksCommonItemsForPartTwo(string path)
+int GetTheSumOfRucksacksCommonItemsForPartTwo(string path)
 {
     List<Group> rucksackGroups = new();
     using (StreamReader streamReader = new StreamReader(path))
