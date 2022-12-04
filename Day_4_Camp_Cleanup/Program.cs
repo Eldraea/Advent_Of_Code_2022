@@ -8,20 +8,19 @@ int GetTheSumOfOverLappingPairs(string path, int part)
     int sum = 0;
     using (StreamReader streamReader = new StreamReader(path))
     {
-        string line;
-        while ((line = streamReader.ReadLine()) is not null)
+        string tasks;
+        while ((tasks = streamReader?.ReadLine())is not null)
         {
-            var lineSplitted = line.Split(',');
-            int firstNumber = int.Parse(lineSplitted[0].Substring(0, lineSplitted[0].IndexOf('-'))) - 1;
-            int secondNumber = int.Parse(lineSplitted[0].Substring(lineSplitted[0].IndexOf('-') + 1));
-            int thirdNumber = int.Parse(lineSplitted[1].Substring(0, lineSplitted[1].IndexOf('-'))) - 1;
-            int fourthNumber = int.Parse(lineSplitted[1].Substring(lineSplitted[1].IndexOf('-') + 1));
-            var firstTasks = Enumerable.Range(firstNumber, secondNumber - firstNumber);
-            var secondTasks = Enumerable.Range(thirdNumber, fourthNumber - thirdNumber).ToArray();
-            var containSameTasks = firstTasks.Where(x => Array.IndexOf(secondTasks, x) != -1);
-            if (part == 1 && (containSameTasks.Count() == firstTasks.Count() || containSameTasks.Count() == secondTasks.Count()))
+            var line = tasks.Split(',');
+            int firstNumber = int.Parse(line[0].Substring(0, Math.Abs(0 - line[0].IndexOf('-'))));
+            int secondNumber = int.Parse(line[0].Substring(line[0].IndexOf('-')+1));
+            int thirdNumber = int.Parse(line[1].Substring(0, Math.Abs(0 - line[1].IndexOf('-'))));
+            int fourthNumber = int.Parse(line[1].Substring(line[1].IndexOf('-')+1));
+            bool doesOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber) || (thirdNumber >= firstNumber && thirdNumber <= secondNumber);
+            bool doesFullyOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber && secondNumber <= fourthNumber) || (thirdNumber >= firstNumber && thirdNumber <= secondNumber && fourthNumber <= secondNumber);
+            if(part == 1 && doesFullyOverlap)
                 sum++;
-            else if (part == 2 && (containSameTasks.Count() != 0))
+            else if (part == 2 && doesOverlap)
                 sum++;
         }
     }
