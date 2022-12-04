@@ -16,11 +16,11 @@ int GetTheSumOfOverLappingPairs(string path, int part)
             int secondNumber = int.Parse(line[0].Substring(line[0].IndexOf('-')+1));
             int thirdNumber = int.Parse(line[1].Substring(0, Math.Abs(0 - line[1].IndexOf('-'))));
             int fourthNumber = int.Parse(line[1].Substring(line[1].IndexOf('-')+1));
-            bool doesOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber) || (thirdNumber >= firstNumber && thirdNumber <= secondNumber);
-            bool doesFullyOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber && secondNumber <= fourthNumber) || (thirdNumber >= firstNumber && thirdNumber <= secondNumber && fourthNumber <= secondNumber);
-            if(part == 1 && doesFullyOverlap)
-                sum++;
-            else if (part == 2 && doesOverlap)
+            bool doesOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber) 
+                || (thirdNumber >= firstNumber && thirdNumber <= secondNumber);
+            bool doesFullyOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber && secondNumber <= fourthNumber)
+                || (thirdNumber >= firstNumber && thirdNumber <= secondNumber && fourthNumber <= secondNumber);
+            if((part == 1 && doesFullyOverlap) || (part == 2 && doesOverlap))
                 sum++;
         }
     }
