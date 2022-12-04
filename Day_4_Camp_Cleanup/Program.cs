@@ -12,14 +12,12 @@ int GetTheSumOfOverLappingPairs(string path, int part)
         while ((tasks = streamReader?.ReadLine())is not null)
         {
             var line = tasks.Split(',');
-            int firstNumber = int.Parse(line[0].Substring(0, Math.Abs(0 - line[0].IndexOf('-'))));
-            int secondNumber = int.Parse(line[0].Substring(line[0].IndexOf('-')+1));
-            int thirdNumber = int.Parse(line[1].Substring(0, Math.Abs(0 - line[1].IndexOf('-'))));
-            int fourthNumber = int.Parse(line[1].Substring(line[1].IndexOf('-')+1));
-            bool doesOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber) 
-                || (thirdNumber >= firstNumber && thirdNumber <= secondNumber);
-            bool doesFullyOverlap = (firstNumber >= thirdNumber && firstNumber <= fourthNumber && secondNumber <= fourthNumber)
-                || (thirdNumber >= firstNumber && thirdNumber <= secondNumber && fourthNumber <= secondNumber);
+            var firstNumbers = line[0].Split('-', 2, StringSplitOptions.None).Select(x => int.Parse(x)).ToArray();
+            var secondNumbers = line[1].Split('-',2,  StringSplitOptions.None).Select(x => int.Parse(x)).ToArray();
+            bool doesOverlap = (firstNumbers[0] >= secondNumbers[0] && firstNumbers[0] <= secondNumbers[1]) 
+                || (secondNumbers[0] >= firstNumbers[0] && secondNumbers[0] <= firstNumbers[1]);
+            bool doesFullyOverlap = (firstNumbers[0] >= secondNumbers[0] && firstNumbers[0] <= secondNumbers[1] && firstNumbers[1] <= secondNumbers[1])
+                || (secondNumbers[0] >= firstNumbers[0] && secondNumbers[0] <= firstNumbers[1] && secondNumbers[1] <= firstNumbers[1]);
             if((part == 1 && doesFullyOverlap) || (part == 2 && doesOverlap))
                 sum++;
         }
