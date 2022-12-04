@@ -1,4 +1,4 @@
-﻿string path = "input.txt";
+﻿string path = "inputTest.txt";
 
 Console.WriteLine($"The number of pairs that fully overlap is equal to {GetTheSumOfOverLappingPairs(path, 1)}");
 Console.WriteLine($"The number of pairs that  overlap is equal to {GetTheSumOfOverLappingPairs(path, 2)}");
@@ -11,17 +11,18 @@ int GetTheSumOfOverLappingPairs(string path, int part)
         string tasks;
         while ((tasks = streamReader?.ReadLine())is not null)
         {
-            var line = tasks.Split(',');
-            var firstNumbers = line[0].Split('-', 2, StringSplitOptions.None).Select(x => int.Parse(x)).ToArray();
-            var secondNumbers = line[1].Split('-',2,  StringSplitOptions.None).Select(x => int.Parse(x)).ToArray();
-            bool doesOverlap = (firstNumbers[0] >= secondNumbers[0] && firstNumbers[0] <= secondNumbers[1]) 
-                || (secondNumbers[0] >= firstNumbers[0] && secondNumbers[0] <= firstNumbers[1]);
-            bool doesFullyOverlap = (firstNumbers[0] >= secondNumbers[0] && firstNumbers[0] <= secondNumbers[1] && firstNumbers[1] <= secondNumbers[1])
-                || (secondNumbers[0] >= firstNumbers[0] && secondNumbers[0] <= firstNumbers[1] && secondNumbers[1] <= firstNumbers[1]);
-            if((part == 1 && doesFullyOverlap) || (part == 2 && doesOverlap))
+            var line = tasks.Replace(',', ' ').Replace('-', ' ').Split(' ').Select(x => int.Parse(x)).ToArray();
+            if((part == 1 && DoesFullyOverlap(line) || part == 2 && DoesOverlap(line)))
                 sum++;
         }
     }
     return sum;
 }
+
+bool DoesOverlap(int[] line)
+    => (line[0] >= line[1] && line[0] <= line[3]) || (line[2] >= line[0] && line[2] <= line[1]);
+
+bool DoesFullyOverlap(int[] line)
+    => (line[0] >= line[2] && line[0] <= line[3] && line[1] <= line[3]) 
+              || (line[2] >= line[0] && line[2] <= line[1] && line[3] <= line[1]);
 
