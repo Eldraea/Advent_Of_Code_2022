@@ -1,4 +1,4 @@
-﻿string path = "input.txt";
+﻿string path = "../../../input.txt";
 
 Console.WriteLine($"The elf who is carring the most calories of food carries {GetTheTotalCaloriesCarriedByElves(path, 1)} calories");
 Console.WriteLine($"The Total of calories carried by the three elves who are carring the most calories of food carry in total {GetTheTotalCaloriesCarriedByElves(path, 2)} calories");
