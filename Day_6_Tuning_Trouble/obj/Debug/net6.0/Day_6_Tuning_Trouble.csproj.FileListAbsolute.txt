@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\Day_6_Tuning_Trouble.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\Day_6_Tuning_Trouble.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\Day_6_Tuning_Trouble.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\Day_6_Tuning_Trouble.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\ref\Day_6_Tuning_Trouble.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\bin\Debug\net6.0\Day_6_Tuning_Trouble.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\ref\Day_6_Tuning_Trouble.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_6_Tuning_Trouble\obj\Debug\net6.0\Day_6_Tuning_Trouble.genruntimeconfig.cache
