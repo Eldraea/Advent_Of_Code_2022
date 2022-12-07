@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\Day_7_No_Space_Left_On_Device.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\Day_7_No_Space_Left_On_Device.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\Day_7_No_Space_Left_On_Device.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\Day_7_No_Space_Left_On_Device.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\ref\Day_7_No_Space_Left_On_Device.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\bin\Debug\net6.0\Day_7_No_Space_Left_On_Device.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\ref\Day_7_No_Space_Left_On_Device.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_7_No_Space_Left_On_Device\obj\Debug\net6.0\Day_7_No_Space_Left_On_Device.genruntimeconfig.cache

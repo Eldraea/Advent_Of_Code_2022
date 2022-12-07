@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_7_No_Space_Left_On_Device", "Day_7_No_Space_Left_On_Device.csproj", "{DC42005D-9B08-4CD6-91EF-2A05CCDF30DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC42005D-9B08-4CD6-91EF-2A05CCDF30DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC42005D-9B08-4CD6-91EF-2A05CCDF30DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC42005D-9B08-4CD6-91EF-2A05CCDF30DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC42005D-9B08-4CD6-91EF-2A05CCDF30DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45FB2A3F-FB26-4AD8-A53E-5231EE14989F}
+	EndGlobalSection
+EndGlobal
