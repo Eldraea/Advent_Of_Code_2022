@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\Day_8_Treetop_Tree_House.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\Day_8_Treetop_Tree_House.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\Day_8_Treetop_Tree_House.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\Day_8_Treetop_Tree_House.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\ref\Day_8_Treetop_Tree_House.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\bin\Debug\net6.0\Day_8_Treetop_Tree_House.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\ref\Day_8_Treetop_Tree_House.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_8_Treetop_Tree_House\obj\Debug\net6.0\Day_8_Treetop_Tree_House.genruntimeconfig.cache
