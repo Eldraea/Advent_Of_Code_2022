@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\Day_10_Carhode-Ray_Tube.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\Day_10_Carhode-Ray_Tube.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\Day_10_Carhode-Ray_Tube.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\Day_10_Carhode-Ray_Tube.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\ref\Day_10_Carhode-Ray_Tube.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\bin\Debug\net6.0\Day_10_Carhode-Ray_Tube.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\ref\Day_10_Carhode-Ray_Tube.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_10_Carhode-Ray_Tube\obj\Debug\net6.0\Day_10_Carhode-Ray_Tube.genruntimeconfig.cache

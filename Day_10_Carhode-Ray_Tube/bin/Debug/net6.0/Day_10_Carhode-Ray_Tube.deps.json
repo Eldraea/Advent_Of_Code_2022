@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day_10_Carhode-Ray_Tube/1.0.0": {
+        "runtime": {
+          "Day_10_Carhode-Ray_Tube.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_10_Carhode-Ray_Tube/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
