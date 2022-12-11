@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\Day_11_Monkey_In_The_Middle.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\Day_11_Monkey_In_The_Middle.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\Day_11_Monkey_In_The_Middle.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\Day_11_Monkey_In_The_Middle.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\ref\Day_11_Monkey_In_The_Middle.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\bin\Debug\net6.0\Day_11_Monkey_In_The_Middle.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\ref\Day_11_Monkey_In_The_Middle.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_11_Monkey_In_The_Middle\obj\Debug\net6.0\Day_11_Monkey_In_The_Middle.genruntimeconfig.cache
