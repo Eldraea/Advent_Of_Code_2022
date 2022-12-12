@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\ref\Day_12_Hill_Climbing_Algorithm.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\bin\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\ref\Day_12_Hill_Climbing_Algorithm.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_12_Hill_Climbing_Algorithm\obj\Debug\net6.0\Day_12_Hill_Climbing_Algorithm.genruntimeconfig.cache

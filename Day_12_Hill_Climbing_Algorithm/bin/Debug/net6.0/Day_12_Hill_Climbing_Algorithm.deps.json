@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day_12_Hill_Climbing_Algorithm/1.0.0": {
+        "runtime": {
+          "Day_12_Hill_Climbing_Algorithm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_12_Hill_Climbing_Algorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
