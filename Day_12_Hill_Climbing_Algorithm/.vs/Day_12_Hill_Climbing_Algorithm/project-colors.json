@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b2bf2d27-ada0-49b1-ae23-6595a2f47a0c": {
+      "ProjectGuid": "b2bf2d27-ada0-49b1-ae23-6595a2f47a0c",
+      "DisplayName": "Day_12_Hill_Climbing_Algorithm",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

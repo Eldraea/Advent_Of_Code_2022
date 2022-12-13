@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Day_13_Distress_Signal/1.0.0": {
+        "runtime": {
+          "Day_13_Distress_Signal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day_13_Distress_Signal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

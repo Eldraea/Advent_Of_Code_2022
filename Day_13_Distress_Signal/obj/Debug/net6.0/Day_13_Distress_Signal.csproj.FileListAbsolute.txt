@@ -1,0 +1,15 @@
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\Day_13_Distress_Signal.exe
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\Day_13_Distress_Signal.deps.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\Day_13_Distress_Signal.runtimeconfig.json
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\Day_13_Distress_Signal.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\ref\Day_13_Distress_Signal.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\bin\Debug\net6.0\Day_13_Distress_Signal.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.csproj.AssemblyReference.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.AssemblyInfoInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.AssemblyInfo.cs
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.csproj.CoreCompileInputs.cache
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\ref\Day_13_Distress_Signal.dll
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.pdb
+C:\Users\Emmanuel\Desktop\Advent_Of_Code_2022\Day_13_Distress_Signal\obj\Debug\net6.0\Day_13_Distress_Signal.genruntimeconfig.cache

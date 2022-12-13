@@ -3,7 +3,6 @@
 public class Solution
 {
     record struct Coord(int lat, int lon);
-
     record struct Symbol(char value);
     record struct Elevation(char value);
     record struct Poi(Symbol symbol, Elevation elevation, int distanceFromGoal);
