@@ -13,8 +13,8 @@ Console.WriteLine(GetHighestScenicScoreForEachTree(forest));
 
 int GetNumberOfVisibleTrees(Forest forest)
     => forest.GetTrees().Count(x =>
-           forest.IsTallest(x, top) || forest.IsTallest(x, bottom) ||
-           forest.IsTallest(x, right) || forest.IsTallest(x, bottom));
+           forest.IsTreeTheTallest(x, top) || forest.IsTreeTheTallest(x, bottom) ||
+           forest.IsTreeTheTallest(x, right) || forest.IsTreeTheTallest(x, bottom));
 
 
 int GetHighestScenicScoreForEachTree(Forest forest)
