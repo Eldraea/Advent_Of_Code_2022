@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emmanuel\\Desktop\\Advent_Of_Code_2022\\Day_10_Carhode-Ray_Tube\\Day_10_Carhode-Ray_Tube.csproj",
-      "projectName": "Day_10_Carhode-Ray_Tube",
-      "projectPath": "C:\\Users\\Emmanuel\\Desktop\\Advent_Of_Code_2022\\Day_10_Carhode-Ray_Tube\\Day_10_Carhode-Ray_Tube.csproj",
+      "projectUniqueName": "C:\\Users\\Emmanuel\\Desktop\\Advent_Of_Code_2022\\Day_10_Carhode-Ray_Tube\\Day_10_Cathode-Ray_Tube.csproj",
+      "projectName": "Day_10_Cathode-Ray_Tube",
+      "projectPath": "C:\\Users\\Emmanuel\\Desktop\\Advent_Of_Code_2022\\Day_10_Carhode-Ray_Tube\\Day_10_Cathode-Ray_Tube.csproj",
       "packagesPath": "C:\\Users\\Emmanuel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Emmanuel\\Desktop\\Advent_Of_Code_2022\\Day_10_Carhode-Ray_Tube\\obj\\",
       "projectStyle": "PackageReference",
