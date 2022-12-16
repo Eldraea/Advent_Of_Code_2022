@@ -25,7 +25,7 @@ string PartTwo()
 long CalculateMaxPressureReleased(string filePath, bool useHelp)
 {
     var valves = SetUpValves(filePath);
-    // Remove valves that pump 0
+
     var usedValveKeyRates = valves.Values.Where(v => v.ReleasePressure > 0).Select(v => (v.Name, v.ReleasePressure))
         .ToArray();
 
@@ -45,13 +45,13 @@ long GetReleasedPressure(int timeToGo, (string name, int rate)[] usedValveKeyRat
     long best = 0;
     var current = valves[startingValveKey];
 
-    // Iterate over all possible valves
+
     foreach (var t in usedValveKeyRates)
     {
         int newTimeToGo = timeToGo - current.StepsToReach[t.name] - 1;
         if (newTimeToGo > 0)
         {
-            // Get the best by recursively stepping down the paths
+
             long gain = newTimeToGo * t.rate + GetReleasedPressure(newTimeToGo, usedValveKeyRates.Where(c => c.name != t.name).ToArray(), t.name, valves);
             if (best < gain) best = gain;
         }
@@ -68,17 +68,13 @@ long GetReleasePressureWithHelp(int[] timeToGo, (string name, int rate)[] usedVa
 
     var current = valves[startingValveKey[actorIndex]];
 
-    // Iterate over all possible valves
     foreach (var t in usedValveKeyRates)
     {
         int newTimeToGo = timeToGo[actorIndex] - current.StepsToReach[t.name] - 1;
         if (newTimeToGo > 0)
         {
             var newTimes = new[] { newTimeToGo, timeToGo[1 - actorIndex] };
-            var newNames = new[] { t.name, startingValveKey[1 - actorIndex] };
-
-            // Get the best by recursively stepping down the paths
-            long gain = newTimeToGo * t.rate + GetReleasePressureWithHelp(newTimes, usedValveKeyRates.Where(c => c.name != t.name).ToArray(), newNames, valves);
+            var newNames = new[] { t.name, startingValveKey[1 - actorIndex] };            long gain = newTimeToGo * t.rate + GetReleasePressureWithHelp(newTimes, usedValveKeyRates.Where(c => c.name != t.name).ToArray(), newNames, valves);
             if (best < gain) best = gain;
         }
     }
@@ -91,7 +87,6 @@ Dictionary<string, Valve> SetUpValves(string filePath)
     var valves = ParseFileToList(filePath, line => new Valve(line))
         .ToDictionary(v => v.Name, v => v);
 
-    // Connect them
     foreach (var key in valves.Keys)
     {
         var current = valves[key];
@@ -106,7 +101,6 @@ Dictionary<string, Valve> SetUpValves(string filePath)
         }
     }
 
-    // Determine steps to reach using BFS
     foreach (var key in valves.Keys)
     {
         var stepsToOthers = new Dictionary<string, int>();
@@ -138,7 +132,7 @@ int? MinStepToOtherUsingBfs(Valve start, Valve target)
 
         foreach (var connection in current.Item1.Connections)
         {
-            // Don't revisit
+
             if (previous.ContainsKey(connection.Name))
                 continue;
 
@@ -146,8 +140,6 @@ int? MinStepToOtherUsingBfs(Valve start, Valve target)
             queue.Enqueue((connection, current.Item2 + 1));
         }
     }
-
-    // Never got there
     return null;
 }
 List<T> ParseFileToList<T>(string filePath, Func<string, T> parser)
