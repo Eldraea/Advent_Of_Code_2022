@@ -31,12 +31,12 @@ namespace Day_8_Treetop_Tree_House
             return trees;
         }
 
-        public int ViewDistance(Tree tree, Direction direction) =>
-            IsTallest(tree, direction) 
+        public int GetDistance(Tree tree, Direction direction) =>
+            IsTreeTheTallest(tree, direction) 
             ? TreesInDirection(tree, direction).Count() 
             : GetNotWantedTrees(tree, direction).Count() + 1;
 
-        public bool IsTallest(Tree tree, Direction direction) =>
+        public bool IsTreeTheTallest(Tree tree, Direction direction) =>
             TreesInDirection(tree, direction).All(x => x.Height < tree.Height);
 
         IEnumerable<Tree> TreesInDirection(Tree tree, Direction direction)

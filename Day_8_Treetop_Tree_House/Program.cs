@@ -1,5 +1,4 @@
-﻿
-using Day_8_Treetop_Tree_House;
+﻿using Day_8_Treetop_Tree_House;
 
 var forestMap = File.ReadAllLines("../../../input.txt");
 
@@ -9,16 +8,23 @@ Direction top = new Direction(-1, 0);
 Direction bottom = new Direction(1, 0);
 Forest forest = new(forestMap, forestMap[0].Length, forestMap.Length);
 
-var resultPartOne = forest.GetTrees().Count(x =>
+Console.WriteLine(GetNumberOfVisibleTrees(forest));
+Console.WriteLine(GetHighestScenicScoreForEachTree(forest));
+
+int GetNumberOfVisibleTrees(Forest forest)
+    => forest.GetTrees().Count(x =>
            forest.IsTallest(x, top) || forest.IsTallest(x, bottom) ||
            forest.IsTallest(x, right) || forest.IsTallest(x, bottom));
-var resultPartTwo = forest.GetTrees().Select(x =>
-            forest.ViewDistance(x, top) * forest.ViewDistance(x, bottom) *
-            forest.ViewDistance(x, right) * forest.ViewDistance(x, left)
+
+
+int GetHighestScenicScoreForEachTree(Forest forest)
+    => forest.GetTrees().Select(x =>
+            forest.GetDistance(x, top) * forest.GetDistance(x, bottom) *
+            forest.GetDistance(x, right) * forest.GetDistance(x, left)
         ).Max();
 
-Console.WriteLine(resultPartOne);
-Console.WriteLine(resultPartTwo);
+
+
 
 
 
