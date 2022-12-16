@@ -1,8 +1,20 @@
-﻿using Day_6_Tuning_Trouble;
-
-string path = "../../../input.txt";
+﻿string path = "../../../input.txt";
 string text = File.ReadLines(path).First();
 
-Day_6 daySix = new(text, 2);
-Console.WriteLine(daySix.Result);
+Console.WriteLine(GetNumberOfCharactersToBeProcessed(text, 1));
+Console.WriteLine(GetNumberOfCharactersToBeProcessed(text, 2));
+
+int GetNumberOfCharactersToBeProcessed(string input, int part)
+{
+    int marker = part == 1 
+        ? 4 
+        : 14;
+    for (var i = 0; i < input.Length; i++)
+    {
+        var charactersBeforeMarker = input.Substring(i, marker).ToCharArray();
+        if (charactersBeforeMarker.Length == charactersBeforeMarker.Distinct().Count())
+            return i + marker;
+    }
+    return -1;
+}
 
