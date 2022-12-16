@@ -1,12 +1,11 @@
 ﻿using System.Text.RegularExpressions;
 
-string path = "../../../input.txt";
-string text = File.ReadAllText(path);
+string text = File.ReadAllText("../../../input.txt");
 
-Console.WriteLine(GetResult(text, 1));
-Console.WriteLine(GetResult(text, 2));
+Console.WriteLine(GetTotalSizeOfDirectory(text, 1));
+Console.WriteLine(GetTotalSizeOfDirectory(text, 2));
 
-int GetResult(string input, int part)
+int GetTotalSizeOfDirectory(string input, int part)
 {
     var currentDirectory = new Stack<string>();
     var directorySizes = new Dictionary<string, int>();
