@@ -1,28 +1,21 @@
-﻿using System.Diagnostics;
-using System.Text.RegularExpressions;
-
-
+﻿using System.Text.RegularExpressions;
 
 var regex = new Regex("Blueprint (\\d+): Each ore robot costs (\\d+) ore. Each clay robot costs (\\d+) ore. Each obsidian robot costs (\\d+) ore and (\\d+) clay. Each geode robot costs (\\d+) ore and (\\d+) obsidian.");
 
-var blueprints =
-    (from line in File.ReadAllLines("../../../input.txt")
-     where !string.IsNullOrWhiteSpace(line)
-     let match = regex.Match(line)
-     select new Blueprint(
-        int.Parse(match.Groups[1].Value),                                   
-        int.Parse(match.Groups[2].Value),                                   
-        int.Parse(match.Groups[3].Value),                                    
-        int.Parse(match.Groups[4].Value), int.Parse(match.Groups[5].Value),  
-        int.Parse(match.Groups[6].Value), int.Parse(match.Groups[7].Value)   
-     )).ToArray();
+var blueprints = File.ReadAllLines("../../../input.txt").Where(x => !string.IsNullOrWhiteSpace(x)).Select(x => new Blueprint(
+    int.Parse(regex.Match(x).Groups[1].Value),
+    int.Parse(regex.Match(x).Groups[2].Value),
+    int.Parse(regex.Match(x).Groups[3].Value),
+    int.Parse(regex.Match(x).Groups[4].Value),
+    int.Parse(regex.Match(x).Groups[5].Value),
+    int.Parse(regex.Match(x).Groups[6].Value),
+    int.Parse(regex.Match(x).Groups[7].Value))).ToArray();
 
 int GetMostGeodes(Blueprint blueprint, int time)
 {
     var alreadyRun = new HashSet<GameState>();
     var toRun = new Stack<GameState>();
     toRun.Push(new GameState(0, 1, 0, 0, 0, 0, 0, 0, time));
-
     var best = 0;
 
     while (toRun.TryPop(out var state))
@@ -42,7 +35,6 @@ int GetMostGeodes(Blueprint blueprint, int time)
 
         if (alreadyRun.Contains(state))
             continue;
-
         alreadyRun.Add(state);
 
         if (state.ore >= blueprint.geodeCostOre && state.obsidian >= blueprint.geodeCostObsidian)
@@ -85,42 +77,36 @@ int GetMostGeodes(Blueprint blueprint, int time)
             state.geodes + state.geodeMachines, state.geodeMachines,
             state.timeLeft - 1));
     }
-
     return best;
 }
 
-long GetPart1()
+long GetQualityLevelOfBluePrints(int part)
 {
-    var result = 0L;
-
-    foreach (var blueprint in blueprints)
+    long qualityLevel;
+    if(part == 1)
     {
-        var blueprintResult = GetMostGeodes(blueprint, 24);
-        result += blueprint.id * blueprintResult;
+        qualityLevel = 0L;
+        foreach (var blueprint in blueprints)
+        {
+            var blueprintResult = GetMostGeodes(blueprint, 24);
+            qualityLevel += blueprint.id * blueprintResult;
+        }
+        return qualityLevel;
     }
-
-    return result;
-}
-
-long GetPart2()
-{
-    var result = 1L;
-
+    qualityLevel = 1L;
     foreach (var blueprint in blueprints.Take(3))
     {
         var blueprintResult = GetMostGeodes(blueprint, 32);
-        result *= blueprintResult;
+        qualityLevel *= blueprintResult;
     }
+    return qualityLevel;
 
-    return result;
 }
 
+Console.WriteLine(GetQualityLevelOfBluePrints(1));
+Console.WriteLine(GetQualityLevelOfBluePrints(2));
 
-
-Console.WriteLine(GetPart1());
-Console.WriteLine(GetPart2());
-
-internal class GameState
+public class GameState
 {
     public int ore;
     public int oreMachines;
