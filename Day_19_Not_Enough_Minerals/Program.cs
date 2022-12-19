@@ -53,7 +53,7 @@ int GetMostGeodes(Blueprint blueprint, int time)
                 state.geodes + state.geodeMachines, state.geodeMachines + 1,
                 state.timeLeft - 1));
 
-        // Try to buy an obsidian machine
+
         if (state.ore >= blueprint.obsidianCostOre && state.clay >= blueprint.obsidianCostClay)
             toRun.Push(new GameState(
                 state.ore + state.oreMachines - blueprint.obsidianCostOre, state.oreMachines,
