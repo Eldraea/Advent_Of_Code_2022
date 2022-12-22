@@ -35,8 +35,8 @@ int DecryptMap(string input, string topology)
                 for (var i = 0; i < n; i++)
                 {
                     var stateNext = Step(topology, state);
-                    var global = ToGlobal(stateNext);
-                    if (map[global.abscissa][global.ordinate] == '.')
+                    var coordinate = GetCoordiante(stateNext);
+                    if (map[coordinate.abscissa][coordinate.ordinate] == '.')
                         state = stateNext;
                     else
                         break;
@@ -45,10 +45,11 @@ int DecryptMap(string input, string topology)
         }
     }
 
-    return 1000 * (ToGlobal(state).abscissa + 1) + 4 * (ToGlobal(state).ordinate + 1) + state.direction;
+    return 1000 * (GetCoordiante(state).abscissa + 1) + 4 * (GetCoordiante(state).ordinate + 1) + state.direction;
 }
 
-Coordinate ToGlobal(State state) =>
+
+Coordinate GetCoordiante(State state) =>
     state.block switch
     {
         "A" => state.coord + new Coordinate(0, blockSize),
