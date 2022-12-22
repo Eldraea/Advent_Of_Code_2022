@@ -37,13 +37,9 @@ int DecryptMap(string input, string topology)
                     var stateNext = Step(topology, state);
                     var global = ToGlobal(stateNext);
                     if (map[global.abscissa][global.ordinate] == '.')
-                    {
                         state = stateNext;
-                    }
                     else
-                    {
                         break;
-                    }
                 }
                 break;
         }
@@ -67,48 +63,45 @@ Coordinate ToGlobal(State state) =>
 State Step(string topology, State state)
 {
 
-    bool wrapsAround(Coordinate coord) =>
-        coord.ordinate < 0 || coord.ordinate >= blockSize || coord.abscissa < 0 || coord.abscissa >= blockSize;
+    bool DoesWrap(Coordinate coordinate) 
+        => coordinate.ordinate < 0 || coordinate.ordinate >= blockSize || coordinate.abscissa < 0 || coordinate.abscissa >= blockSize;
+    var (source, coordinate, direction) = state;
+    var destination = source;
 
-    var (srcBlock, coord, direction) = state;
-    var dstBlock = srcBlock;
-
-    coord = direction switch
+    coordinate = direction switch
     {
-        left => coord with { ordinate = coord.ordinate - 1 },
-        down => coord with { abscissa = coord.abscissa + 1 },
-        right => coord with { ordinate = coord.ordinate + 1 },
-        up => coord with { abscissa = coord.abscissa - 1 },
+        left => coordinate with { ordinate = coordinate.ordinate - 1 },
+        down => coordinate with { abscissa = coordinate.abscissa + 1 },
+        right => coordinate with { ordinate = coordinate.ordinate + 1 },
+        up => coordinate with { abscissa = coordinate.abscissa - 1 },
         _ => throw new Exception()
     };
 
-    if (wrapsAround(coord))
+    if (DoesWrap(coordinate))
     {
 
-        var line = topology.Split("\r\n").Single(x => x.StartsWith(srcBlock));
-        var mapping = line.Split("->")[1].Split(" ");
-        var neighbour = mapping[direction];
-        dstBlock = neighbour.Substring(0, 1);
-        var rotate = int.Parse(neighbour.Substring(1));
+        var next = topology.Split("\r\n").Single(x => x.StartsWith(source)).Split("->").Last().Split(" ")[direction]; 
+        destination = next.First().ToString();
+        var rotate = int.Parse(next.Substring(1));
 
-        coord = coord with
+        coordinate = coordinate with
         {
-            abscissa = (coord.abscissa + blockSize) % blockSize,
-            ordinate = (coord.ordinate + blockSize) % blockSize,
+            abscissa = (coordinate.abscissa + blockSize) % blockSize,
+            ordinate = (coordinate.ordinate + blockSize) % blockSize,
         };
 
         for (var i = 0; i < rotate; i++)
         {
-            coord = coord with 
+            coordinate = coordinate with 
             { 
-                abscissa = coord.ordinate, 
-                ordinate = blockSize - coord.abscissa - 1 
+                abscissa = coordinate.ordinate, 
+                ordinate = blockSize - coordinate.abscissa - 1 
             };
             direction = (direction + 1) % 4;
         }
     }
 
-    return new State(dstBlock, coord, direction);
+    return new State(destination, coordinate, direction);
 }
 
 (string[] map, Cmd[] path) Parse(string input)
@@ -116,16 +109,13 @@ State Step(string topology, State state)
     var blocks = input.Split("\r\n\r\n");
 
     var map = blocks[0].Split("\r\n");
-    var commands = Regex
-        .Matches(blocks[1], @"(\d+)|L|R")
-        .Select<Match, Cmd>(m =>
-            m.Value switch {
-                "L" => new Left(),
-                "R" => new Right(),
-                string n => new Forward(int.Parse(n)),
-            })
-        .ToArray();
-
+    var commands = Regex.Matches(blocks[1], @"(\d+)|L|R").Select<Match, Cmd>(m =>
+    m.Value switch
+    {
+        "L" => new Left(),
+        "R" => new Right(),
+        string n => new Forward(int.Parse(n)),
+    }).ToArray();
     return (map, commands);
 }
 
