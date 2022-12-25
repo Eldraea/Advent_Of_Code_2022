@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using System.Text;
+﻿using System.Text;
 
 
 string[] input = File.ReadAllLines("../../../input.txt").Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();
