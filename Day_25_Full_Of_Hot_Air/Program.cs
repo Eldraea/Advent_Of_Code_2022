@@ -28,7 +28,7 @@ long FromSNAFU(string value)
 	return result;
 }
 
-string ToSnafu(long value)
+string LongToSNAFU(long value)
 {
 	var digitStack = new Stack<char>();
 
@@ -53,7 +53,7 @@ string GetSNAFUNumber()
 		var value = FromSNAFU(line);
 		result += value;
 	}
-	return ToSnafu(result);
+	return LongToSNAFU(result);
 }
 
 Console.WriteLine($"{GetSNAFUNumber()}");
